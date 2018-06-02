@@ -44,3 +44,8 @@ h1,
     border-radius: 25px;
     padding: 5px;
 }
+
+/* MAIN IMAGE*/
+.main-image {
+    width: 100%;
+}
