@@ -86,3 +86,26 @@ figure {
 figcaption {
     text-align: center;
 }
+
+/* FOOTER */
+footer {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    width: calc(100% - 20px);
+    background-color: white;
+}
+
+.social,
+.social a {
+    font-size: 30px;
+    color: #bbb;
+}
+
+.fa-twitter {
+    margin-right: 20px;
+}
+
+.hearts {
+    color: red;
+}
