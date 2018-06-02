@@ -49,3 +49,14 @@ h1,
 .main-image {
     width: 100%;
 }
+
+/* ABOUT */
+h2 {
+    text-align: center;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+.about p {
+    padding: 0 10px;
+}
