@@ -1,0 +1,46 @@
+/* BASE STYLES */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #eee;
+    font-family: 'Helvetica Neue', serif;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #e0e0e0;
+}
+
+.logo {
+    width: 140px;
+}
+
+.header-title {
+    font-size: 1.5em;
+    margin: 0;
+    color: #444;
+    text-shadow: 1px 1px 1px #999;
+    padding: 10px;
+    font-family: 'Great Vibes', cursive;
+}
+
+h1,
+.header-title p {
+    margin: 0;
+    padding: 0;
+}
+
+.header-title p {
+    color: black;
+    border: 1px solid #444;
+    border-radius: 25px;
+    padding: 5px;
+}
