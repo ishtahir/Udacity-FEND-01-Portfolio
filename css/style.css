@@ -109,3 +109,50 @@ footer {
 .hearts {
     color: red;
 }
+
+/* SCREENS BIGGER THAN 750PX */
+@media screen and (min-width: 750px) {
+
+    /* HEADER */
+
+    header {
+        flex-direction: row;
+    }
+
+    .header-title {
+        font-size: 1em;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    /* ABOUT */
+
+    h2 {
+        text-align: center;
+    }
+
+    .about {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* PROJECTS */
+    .works {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex: 1;
+    }
+
+    figure {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* FOOTER */
+    footer {
+        width: calc(100% - 20px);
+    }
+}
