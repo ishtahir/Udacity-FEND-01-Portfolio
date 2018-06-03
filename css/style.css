@@ -83,6 +83,11 @@ figure {
     padding: 5px;
 }
 
+figure img {
+    height: 220px;
+    width: 320px;
+}
+
 figcaption {
     text-align: center;
 }
