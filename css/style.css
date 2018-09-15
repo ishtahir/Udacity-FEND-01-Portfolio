@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #eee;
+    background-color: #999;
     font-family: 'Helvetica Neue', serif;
 }
 
@@ -16,20 +16,19 @@ header {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    background-color: #e0e0e0;
-}
-
-.logo {
-    width: 140px;
+    background-color: #000;
 }
 
 .header-title {
-    font-size: 1.5em;
     margin: 0;
-    color: #444;
-    text-shadow: 1px 1px 1px #999;
-    padding: 10px;
+    color: #fff;
+    text-shadow: 1px 1px 1px red;
+    padding: 20px;
     font-family: 'Great Vibes', cursive;
+}
+
+h1 {
+    font-size: 3em;
 }
 
 h1,
@@ -39,10 +38,39 @@ h1,
 }
 
 .header-title p {
-    color: black;
-    border: 1px solid #444;
+    color: #fff;
+    border: 1px solid #aaa;
     border-radius: 25px;
     padding: 5px;
+    font-size: 1.5em;
+}
+
+.links, .creds {
+    display: flex;
+    list-style-type: none;
+    color: #fff;
+}
+
+.links li, .creds li {
+    padding: 15px;
+    font-size: 1.1em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue;
+    text-decoration: overline;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:active {
+    color: blue;
 }
 
 /* MAIN IMAGE*/
