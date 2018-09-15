@@ -6,6 +6,8 @@ body {
     width: 100%;
     background-color: #eee;
     font-family: 'Helvetica Neue', serif;
+    display: flex;
+    flex-direction: column;
 }
 
 /* HEADER */
@@ -51,6 +53,10 @@ h1,
 }
 
 /* ABOUT */
+.about {
+    order: 1;
+}
+
 h2 {
     text-align: center;
     margin-bottom: 0;
