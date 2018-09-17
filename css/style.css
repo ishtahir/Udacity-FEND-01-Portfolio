@@ -51,14 +51,15 @@ header {
 h1 {
     font-size: 3em;
     position: absolute;
-    top: 35%;
-    left: 35%;
-    animation: type 3s steps(13);
+    top: 45%;
+    left: 10%;
+    animation: type 3s steps(23);
     overflow: hidden;
     white-space: nowrap;
-    font-family: fantasy;
+    font-family: 'Overpass Mono';
     border-right: 4px solid white;
-    width: 15ch;
+    width: 23ch;
+    background-color: rgba(255,255,255,0.5)
 }
 
 @keyframes type {
@@ -67,7 +68,17 @@ h1 {
     }
 
     100% {
-        width: 13ch;
+        width: 23ch;
+    }
+}
+
+@@keyframes reverse {
+    0% {
+        width: 11ch;
+    }
+
+    100% {
+        width: 30ch;
     }
 }
 
@@ -126,17 +137,8 @@ h3 { /* project title */
     margin-bottom: 5px;
 }
 
-figure {
-    padding: 5px;
-}
-
-figure img {
-    height: 220px;
-    width: 320px;
-}
-
-figcaption {
-    text-align: center;
+.works img {
+    max-width: 50%;
 }
 
 /* ABOUT */
