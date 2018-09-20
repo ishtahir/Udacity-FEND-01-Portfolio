@@ -8,7 +8,16 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Helvetica Neue', serif;
-    color: #fff;
+    color: #999;
+}
+
+/*****************************
+GENERAL
+*****************************/
+.section-text {
+    text-align: center;
+    margin-bottom: 0;
+    text-decoration: underline;
 }
 
 /*****************************
@@ -117,10 +126,7 @@ HOME
 }
 
 .main-text {
-    font-size: 3em;
-    /* position: absolute; */
-    /* top: 45%; */
-    /* left: 10%; */
+    font-size: 1.6em;
     margin: 0;
     padding: 0;
     animation: type 3s steps(23);
@@ -129,7 +135,10 @@ HOME
     font-family: 'Overpass Mono';
     border-right: 4px solid white;
     width: 23ch;
-    background-color: rgba(255,255,255,0.5)
+    background-color: rgba(255,255,255,0.5);
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
 }
 
 @keyframes type {
@@ -153,37 +162,29 @@ HOME
 }
 
 /*****************************
-GENERAL
-*****************************/
-.section-text {
-    text-align: center;
-    margin-bottom: 0;
-    text-decoration: underline;
-}
-
-/*****************************
 PROJECTS
 *****************************/
 .projects {
-    max-width: 100%;
-    margin: 0 auto;
+    /* max-width: 100%; */
+    /* margin: 0 auto; */
     background-color: #fff;
     color: black;
 }
 
-.works {
+.works a {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.works img {
+    width: 90%;
+    margin-bottom: 15px;
+}
+
 h3 { /* project title */
     text-align: center;
     margin-bottom: 5px;
-}
-
-.works img {
-    max-width: 50%;
 }
 
 /*****************************
@@ -257,6 +258,14 @@ SCREENS BIGGER THAN 750PX
         text-decoration: overline;
         background-color: #000;
     }
+
+    /*****************************
+    HOME
+    *****************************/
+    .main-text {
+        font-size: 3em;
+    }
+
 
     /*****************************
     ABOUT
